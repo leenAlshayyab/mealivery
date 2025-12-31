@@ -1,0 +1,724 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/*section 1 */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+.navbar-logo {
+  width: 100%;
+  max-width: 100px;
+  margin-left: 5%;
+  padding-top: 0.2rem;
+}
+.navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 130px;
+  padding-top: 1.5rem;
+}
+.signup {
+  color: #ff5f1f;
+  background-color: #fff3e6;
+  padding: 5px 20px 20px 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+}
+.login {
+  color: white;
+  background-color: #ff5f1f;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+}
+.lang {
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+}
+
+
+/*section 2*/
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content {
+  margin-top: 7rem;
+  margin-left: 14rem;
+}
+.hero-text {
+  color: white;
+  font-size: 5.5rem;
+  font-weight: 600;
+  font-family: cursive;
+}
+.text1 {
+  background: linear-gradient(to right, #fb923c, #ef4444);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.text3 {
+  background: linear-gradient(to right, #4ade80, #3b82f6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.hero-subtitle {
+  color: white;
+  font-size: 1.9rem;
+  font-family: "Inter", sans-serif;
+}
+.hero-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff6a00, #ff3d00);
+  color: white;
+  padding: 23px 35px;
+  border-radius: 35px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 0;
+  margin-top: 2rem;
+}
+.hero-image img {
+  opacity: 0.9;
+  padding-right: 300px;
+  width: 450px;
+  height: 450px;
+  padding-top: 55px;
+}
+
+/*section 3*/
+.why-section {
+  margin-top: 11rem;
+}
+.why-title {
+  color: #e86830;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: cursive;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+  text-align: center;
+}
+.icon-path {
+  background-color: #fff3e6;
+  border-radius: 50%;
+  padding: 2rem 2rem;
+}
+.feature-text {
+  color: white;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+/*section 4*/
+
+.app-section {
+  width: 100%;
+  background-color: rgb(17 24 39);
+  margin-top: 13rem;
+  /*padding: 2rem 1rem;*/
+}
+.app-container {
+  max-width:100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.app-img img {
+  width: 100%;
+  max-width: 280px;
+}
+.app-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;  
+  margin-bottom: 5rem;
+}
+.text-app {
+  color: white;
+  font-size: 2.5rem;
+  font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+  margin-bottom: 1rem;
+}
+.feature-app {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+.app-store,
+.google-play {
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 170px;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.text-left,
+.text-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  
+}
+.text-xs {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.icon-mobile{
+  color: white;
+}
+
+/*section 5*/
+
+.restaurants {
+  margin-top: 9rem;
+}
+.text-restaurants {
+  color: #ff6a00;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: cursive;
+  padding-bottom: 3rem;
+}
+.imge-restaurants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.logo-restaurants {
+  width: 150px;
+  height: 150px;
+  border-radius: 11%;
+}
+
+
+/*section6*/
+
+.healthy-food{
+    margin-top: 12rem;
+}
+.text-healthy{
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+/*section 7*/
+.text-join{
+    color: white;
+    text-align: center;
+    font-size: 3.8rem;
+}
+.card{
+  max-width: 690px;
+  margin: 0 auto 32px auto;
+  padding: 24px;
+  background-color: rgba(31, 41, 55, 0.5);
+  border: 2px solid rgba(31, 41, 55, 0.5);
+  border-radius: 16px;
+  color: white;
+
+}
+.card-text{
+  font-size: 1.55rem;
+}
+.text-chick{
+  font-size: 1.35rem;
+}
+
+/* tablets (iPad landscape) */
+.join-mealivery{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.form-container{
+  max-width: 640px;
+  margin: 0 auto 32px auto;
+  padding: 24px;
+  background-color: rgba(31, 41, 55, 0.5);
+  border: 2px solid rgba(31, 41, 55, 0.5);
+  border-radius: 16px;
+  color: white;
+}
+.list-form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+}
+.input-icon{
+  height: 65px;
+  background-color: rgba(31, 41, 55, 0.5);
+  border: 2px solid rgba(31, 41, 55, 0.5);
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 1.1rem;
+}
+.join-btn{
+  background: linear-gradient(90deg, #ff6a00, #ff3d00);
+  color: white;
+  padding: 23px 35px;
+  border-radius: 35px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border: 0;
+  margin-top: 2rem;
+}
+.text-form{
+  color: rgb(156 163 175);
+  font-size: 1.2rem;
+}
+
+/*last section*/
+.last-section{
+  margin-top: 17rem;
+}
+.foot-container{
+  display: flex;
+  gap: 3rem;
+  padding-left: 12rem;
+}
+.resources h2,.legals h2{
+  color: #ff6a00;
+  font-size: 1.5rem;
+}
+.resources a,.legals a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.footer-mealivery{
+  color: rgb(156 163 175);
+  text-align: center;
+}
+hr{
+  border: 0.1px solid rgb(156 163 175);
+}
+
+/* =========================
+  Mobile (max-width: 767px)
+   ========================= */
+
+@media (max-width: 767px) {
+
+  /* Navbar */
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    gap: 1.5rem;
+  }
+  .navbar-logo {
+    max-width: 100px;
+  }
+  .navbar-links {
+    margin-right: 30px;
+  }
+  .signup {
+    font-size: 1.1rem;
+    padding: 2px 15px 15px 10px;
+  }
+  .login {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+  }
+  .lang {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  /* Hero */
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin: 5rem auto 0 auto;
+    text-align: center;
+  }
+  .hero-text {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .hero-subtitle {
+    margin-top: 2rem;
+    font-size: 1.02rem;
+  }
+  .hero-btn {
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: 16px 28px;
+  }
+  .hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-image img {
+    padding: 0;
+    width: 350px;
+    height: auto;
+    margin-top: 4rem;
+  }
+  
+  /* Why section */
+  .why-title {
+    font-size: 2rem;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .feature-text {
+    font-size: 1.5rem;
+  }
+
+  /* App section */
+  .app-container {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-img img {
+    width: 160px;
+    height: 180px;
+  }
+  .app-right {
+    align-items: flex-end;
+    text-align: center;
+  }
+  .text-app {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .feature-app {
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 1rem;
+  }
+  .app-store,
+  .google-play {
+    width: 150px;
+  }
+  .text-lg {
+    font-size: 1.3rem;
+  }
+
+  /* Restaurants */
+  .imge-restaurants {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Healthy */
+  .healthy-food {
+    margin-top: 7rem;
+  }
+  .text-healthy {
+    font-size: 1.2rem;
+    padding: 15px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+  }
+
+  /* Join */
+  .text-join {
+    font-size: 2.5rem;
+  }
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .card-text {
+    font-size: 1.25rem;
+  }
+  .text-chick {
+    font-size: 1.15rem;
+  }
+  .form-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .join-btn {
+    padding: 5px;
+  }
+  .text-form {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* Footer */
+  .last-section {
+    margin-top: 4rem;
+  }
+  .foot-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2rem;
+  }
+}
+
+/* =========================
+   Tablets (768px - 1024px)
+   ========================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Navbar */
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    gap: 1.5rem;
+  }
+  .navbar-logo {
+    max-width: 90px;
+  }
+  .navbar-links {
+    margin-right: 5rem;
+  }
+  .signup {
+    font-size: 1.3rem;
+    padding: 8px 18px 18px 18px;
+  }
+  .login {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+  }
+  .lang {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  /* Hero */
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin: 5rem auto 0 auto;
+    text-align: center;
+  }
+  .hero-text {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .hero-subtitle {
+    margin-top: 2rem;
+    font-size: 1.02rem;
+  }
+  .hero-btn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 16px 28px;
+  }
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image img {
+    padding-right: 0;
+  }
+
+  /* Why */
+  .why-title {
+    font-size: 1.8rem;
+  }
+  .feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    text-align: center;
+  }
+  .feature-text {
+    font-size: 1.5rem;
+  }
+
+  /* App */
+  .feature-app {
+    display: flex;
+    flex-direction: row;
+  }
+  .text-app {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  /* Restaurants */
+  .imge-restaurants {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Healthy */
+  .text-healthy {
+    font-size: 1.6rem;
+  }
+
+  /* Join */
+  .card {
+    max-width: 620px;
+  }
+  .text-join {
+    font-size: 3rem;
+  }
+  .form-container {
+    max-width: 550px;
+    
+  }
+  .text-form {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  /* Footer */
+  .foot-container {
+    padding-left: 2rem;
+  }
+  .last-section {
+    margin-top: 3rem;
+  }
+  .text-healthy{
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* =========================
+   iPad Air / Pro (820px - 1180px)
+   ========================= */
+
+@media (min-width: 820px) and (max-width: 1180px) {
+
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin: 5rem auto 0 auto;
+    text-align: center;
+    font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+  }
+  .hero-text {
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image img {
+    padding-right: 0;
+  }
+
+  .hero-btn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    max-width: 200px;
+  }
+
+
+  .form-container {
+    margin-left: 7rem;
+  }
+}
+/* =========================
+   Small Desktop / iPad Pro Landscape
+   1024px → 1366px
+   ========================= */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  /* Hero */
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-content {
+    margin-top: 7rem;
+    margin-left: 6rem;
+    margin-right: 0;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    white-space: nowrap;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .hero-btn {
+    font-size: 1.5rem;
+    padding: 20px 32px;
+  }
+
+  .hero-image img {
+    width: 420px;
+    height: auto;
+    padding-right: 6rem;
+    padding-top: 13rem;
+  }
+
+  .form-container {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 912px) and (max-width: 1368px) {
+  .form-container {
+    margin: 0 auto;
+  }
+}
